@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primaryColor);
+    height: 90vh;
+}
+
+.title {
+    color: transparent;
+    text-align: center;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #88182e, #FC003F);
+    -webkit-background-clip: text;
+    animation: linear infinite 5s animate;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    margin: 10px;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+.description {
+    font-size: 1rem;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondaryColor);
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 100%;
+    transition: color .3s;
+}
+
+.github, .linkedin, .email {
+    transition: 1s transform;
+    cursor: pointer;
+}
+.github:hover {
+    color: var(--github);
+    transform: scale(1.1);
+}
+
+.linkedin:hover {
+    color: var(--linkedin);
+    transform: scale(1.1);
+}
+
+.email:hover {
+    color: var(--email);
+    transform: scale(1.1);
+}

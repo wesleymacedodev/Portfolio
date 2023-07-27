@@ -1,0 +1,41 @@
+.contact {
+    margin: 20px;
+    margin-top: var(--sectionSpacing);
+}
+
+.title {
+    font-size: 2rem;
+    color: var(--FontColor);
+}
+
+.contact_contents {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--skillPrimary);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.contact_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_icon {
+    font-size: 2rem;
+    color: var(--skillFontColor);
+}
+
+.contact_title {
+    color: var(--skillFontColor);
+    font-size: 1.5rem;
+}
+
+.contact_content {
+    color: var(--skillFontColor);
+    font-size: 1rem;
+}
+

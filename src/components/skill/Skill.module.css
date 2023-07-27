@@ -1,0 +1,95 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--primaryColor);
+    margin: 20px;
+    margin-top: var(--sectionSpacing);
+}
+
+.title {
+    color: var(--FontColor);
+}
+
+.description {
+    text-align: center;
+    max-width: 400px;
+}
+
+.skill_section {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill_box {
+    transition: transform 1s;
+    color: gray;
+}
+
+.skill_box:hover {
+    transform: translateY(-10px);
+}
+
+.skill {
+    background-color: var(--skillPrimary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    min-width: 100px
+}
+
+.skill::after{
+    display: block;
+    position: relative;
+    top: 10px;
+    content: " ";
+    height: 2px;
+    width: 100%;
+    background-color: var(--skillFontColor);
+}
+
+.skill_title {
+    color: var(--skillFontColor);
+    font-size: var(--skillFont);
+    text-align: center;
+    background-color: var(--skillSecondary);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.skill_icon {
+    font-size: 3.5rem;
+    color: var(--skillFontColor);
+}
+
+.skill_box:hover .python {
+    color: var(--python);
+}
+
+.skill_box:hover .html {
+    color: var(--html);
+}
+
+.skill_box:hover .css {
+    color: var(--css);
+}
+
+.skill_box:hover .javascript {
+    color: var(--javascript);
+}
+
+.skill_box:hover .react {
+    color: var(--react);
+}
+
+.skill_box:hover .linux {
+    color: var(--linux);
+}
+
+
+
+

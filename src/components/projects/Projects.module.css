@@ -1,0 +1,92 @@
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: var(--sectionSpacing);
+}
+
+.title {
+    color: var(--FontColor);
+}
+
+.projects_section {
+    display: grid;
+    margin-top: 30px;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+}
+
+
+
+.project_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    background-color: var(--skillSecondary);
+    border-radius: 0 0 10px 10px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    border-radius: 10px 10px 10px 10px;
+    transition: transform 1s, box-shadow 1s;
+    text-decoration: none;
+    color: (var(--skillFontColor));
+}
+
+.link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.project_image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    background-color: var(--skillPrimary);
+}
+
+.project_content::before {
+    display: block;
+    position: relative;
+    content: " ";
+    height: 2px;
+    bottom: 11px;
+    width: 100%;
+    background-color: var(--skillFontColor);
+}
+
+.project_title {
+    font-size: 1.5rem;
+    color: var(--FontColor);
+}
+
+.project_description {
+    font-size: 1rem;
+    color: var(--FontColor)
+}
+
+.project_languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project_language {
+    font-size: 1rem;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.project_data {
+    font-size: 1rem;
+    align-self: end;
+    color: var(--FontColor);
+}
+
+
