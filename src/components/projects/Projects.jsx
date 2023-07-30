@@ -13,6 +13,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={default_image}
+          style={style}
+          title={"Filme API (Flask)"}
+          description={
+            "Projeto simples feito em Python, pondo em prática a utilização do framework Flask para a confecção de uma API que consiga acessar, adicionar, editar e deletar informações, além de um script simples para a manipulação da API."
+          }
+          tecnology={["Python"]}
+          date="29/07/2023"
+          url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Filme%20API%20-%20Python%20(Flask)"
+        />
         <Project
           image={default_image}
           style={style}
