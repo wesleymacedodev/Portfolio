@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 import style from "./Projects.module.css";
-import { default_image, youtube_downloader, gamelauncher } from "./Images";
+import { 
+default_image, 
+file_tools_python_tkinter, 
+gamelauncher_javascript_electron,
+dashboard_website_react,
+wmusic_website_react
+} from "./Images";
 import Project from "./Project";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -13,6 +19,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={file_tools_python_tkinter}
+          style={style}
+          title={"File Tools (Tkinter)"}
+          description={
+            "Projeto com interface gráfica feito em Python, com principal objetivo de adicionar algumas funcionalidades como alteração do nome de arquivos de forma massiva e de diversas formas, facilitando a renomeação."
+          }
+          tecnology={["Python"]}
+          date="01/08/2023"
+          url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/File%20Tools%20-%20Python%20(Tkinter)"
+        />
       <Project
           image={default_image}
           style={style}
@@ -36,7 +53,7 @@ export default function Projects() {
           url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Youtube%20Downloader%20-%20Python"
         />
         <Project
-          image={default_image}
+          image={gamelauncher_javascript_electron}
           style={style}
           title={"GameLauncher (Electron)"}
           description={
@@ -70,7 +87,7 @@ export default function Projects() {
         />
 
         <Project
-          image={default_image}
+          image={dashboard_website_react}
           style={style}
           title={"Dashboard Website"}
           description={
@@ -81,7 +98,7 @@ export default function Projects() {
           url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Dashboard%20Website%20-%20React"
         />
         <Project
-          image={default_image}
+          image={wmusic_website_react}
           style={style}
           title={"WMusic Website"}
           description={

@@ -1,3 +1,6 @@
 export const default_image = require("./Images/default.png")
 export const youtube_downloader = require("./Images/youtube_downloader.png")
-export const gamelauncher = require("./Images/gamelauncher.png")
+export const gamelauncher_javascript_electron = require("./Images/gamelauncher_javascript_electron.png")
+export const file_tools_python_tkinter = require("./Images/file_tools_python_tkinter.png")
+export const dashboard_website_react = require("./Images/dashboard_website_react.png")
+export const wmusic_website_react = require("./Images/wmusic_website_react.png")
