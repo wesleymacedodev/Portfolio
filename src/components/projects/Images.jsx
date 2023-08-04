@@ -4,3 +4,4 @@ export const gamelauncher_javascript_electron = require("./Images/gamelauncher_j
 export const file_tools_python_tkinter = require("./Images/file_tools_python_tkinter.png")
 export const dashboard_website_react = require("./Images/dashboard_website_react.png")
 export const wmusic_website_react = require("./Images/wmusic_website_react.png")
+export const tela_de_cadastro_login_javascript = require("./Images/tela_de_cadastro_login_javascript.png")

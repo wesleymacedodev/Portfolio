@@ -5,7 +5,8 @@ default_image,
 file_tools_python_tkinter, 
 gamelauncher_javascript_electron,
 dashboard_website_react,
-wmusic_website_react
+wmusic_website_react,
+tela_de_cadastro_login_javascript
 } from "./Images";
 import Project from "./Project";
 import Aos from "aos";
@@ -19,6 +20,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={tela_de_cadastro_login_javascript}
+          style={style}
+          title={"Tela De Cadastro/Login"}
+          description={
+            "Projeto feito com JavaScript puro (Vanilla JS). Tela interativa de cadastro e login, com sistema de validação e verificação, utilizando o localStorage para armazenar e gerenciar os dados obtidos."
+          }
+          tecnology={["HTML", "CSS", "JavaScript"]}
+          date="04/08/2023"
+          url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Tela%20De%20Cadastro%5CLogin%20-%20JavaScript"
+        />
       <Project
           image={file_tools_python_tkinter}
           style={style}
