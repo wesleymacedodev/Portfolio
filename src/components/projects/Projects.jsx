@@ -6,7 +6,8 @@ file_tools_python_tkinter,
 gamelauncher_javascript_electron,
 dashboard_website_react,
 wmusic_website_react,
-tela_de_cadastro_login_javascript
+tela_de_cadastro_login_javascript,
+color_picker_extensao_javascript
 } from "./Images";
 import Project from "./Project";
 import Aos from "aos";
@@ -20,6 +21,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={color_picker_extensao_javascript}
+          style={style}
+          title={"Color Picker Extensão"}
+          description={
+            "Projeto feito com JavaScript puro (Vanilla JS). Extensão para coletar cores de uma pagina web e de armazenar as últimas cores utilizadas."
+          }
+          tecnology={["HTML", "CSS", "JavaScript"]}
+          date="08/08/2023"
+          url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Color%20Picker%20Extens%C3%A3o%20-%20JavaScript"
+        />
       <Project
           image={tela_de_cadastro_login_javascript}
           style={style}

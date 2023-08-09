@@ -5,3 +5,4 @@ export const file_tools_python_tkinter = require("./Images/file_tools_python_tki
 export const dashboard_website_react = require("./Images/dashboard_website_react.png")
 export const wmusic_website_react = require("./Images/wmusic_website_react.png")
 export const tela_de_cadastro_login_javascript = require("./Images/tela_de_cadastro_login_javascript.png")
+export const color_picker_extensao_javascript = require("./Images/color_picker_extensao_javascript.png")
