@@ -7,7 +7,8 @@ gamelauncher_javascript_electron,
 dashboard_website_react,
 wmusic_website_react,
 tela_de_cadastro_login_javascript,
-color_picker_extensao_javascript
+color_picker_extensao_javascript,
+to_dolist_react
 } from "./Images";
 import Project from "./Project";
 import Aos from "aos";
@@ -21,6 +22,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={to_dolist_react}
+          style={style}
+          title={"To-Do List"}
+          description={
+            "Projeto de uma to-do list utilizando react, com as funcionalidades de adição de tarefas, remoção, alteração e mudança de estado para sinalizar como tarefa concluída."
+          }
+          tecnology={["React","HTML", "CSS", "JavaScript"]}
+          date="14/08/2023"
+          url="https://github.com/wesleymacedodev/Projetos/blob/main/Projetos%20Maiores/To-Do%20List%20-%20React/"
+        />
       <Project
           image={color_picker_extensao_javascript}
           style={style}
@@ -117,7 +129,7 @@ export default function Projects() {
           description={
             "Projeto com o intuito de colocar em prática a utilização de componentes e a criação de um site fictício para uma empresa de negócios, além de pôr em prática a utilização do React."
           }
-          tecnology={["Html", "Css", "React"]}
+          tecnology={["React","HTML", "CSS", "JavaScript"]}
           date="29/06/2023"
           url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Dashboard%20Website%20-%20React"
         />
@@ -128,7 +140,7 @@ export default function Projects() {
           description={
             "Projeto com o intuito de colocar em prática a utilização de componentes e a criação de um site fictício para uma empresa de aplicativo de música, além de pôr em prática a utilização do React."
           }
-          tecnology={["Html", "Css", "React"]}
+          tecnology={["React","HTML", "CSS", "JavaScript"]}
           date="23/06/2023"
           url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/WMusic%20Website%20-%20React"
         />

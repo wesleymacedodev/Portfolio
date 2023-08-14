@@ -6,3 +6,4 @@ export const dashboard_website_react = require("./Images/dashboard_website_react
 export const wmusic_website_react = require("./Images/wmusic_website_react.png")
 export const tela_de_cadastro_login_javascript = require("./Images/tela_de_cadastro_login_javascript.png")
 export const color_picker_extensao_javascript = require("./Images/color_picker_extensao_javascript.png")
+export const to_dolist_react = require("./Images/to_dolist_react.png");
