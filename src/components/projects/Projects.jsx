@@ -8,7 +8,8 @@ dashboard_website_react,
 wmusic_website_react,
 tela_de_cadastro_login_javascript,
 color_picker_extensao_javascript,
-to_dolist_react
+to_dolist_react,
+pomodoro_react
 } from "./Images";
 import Project from "./Project";
 import Aos from "aos";
@@ -22,6 +23,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={pomodoro_react}
+          style={style}
+          title={"Pomodoro"}
+          description={
+            "Projeto de um site com a técnica pomodoro utilizando react, composto com os três contadores (pomodoro, pausa curta e pausa longa), além de conter um menu de configurações para alterar o tempo dos cronómetros."
+          }
+          tecnology={["React","HTML", "CSS", "JavaScript"]}
+          date="17/08/2023"
+          url="https://github.com/wesleymacedodev/Projetos/blob/main/Projetos%20Maiores/Pomodoro%20-%20React/README.MD"
+        />
       <Project
           image={to_dolist_react}
           style={style}
