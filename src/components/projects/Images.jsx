@@ -8,3 +8,4 @@ export const tela_de_cadastro_login_javascript = require("./Images/tela_de_cadas
 export const color_picker_extensao_javascript = require("./Images/color_picker_extensao_javascript.png")
 export const to_dolist_react = require("./Images/to_dolist_react.png");
 export const pomodoro_react = require("./Images/pomodoro_react.png");
+export const texttoascii_react_python = require("./Images/texttoascii_react_python.png");

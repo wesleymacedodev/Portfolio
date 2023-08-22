@@ -9,7 +9,8 @@ wmusic_website_react,
 tela_de_cadastro_login_javascript,
 color_picker_extensao_javascript,
 to_dolist_react,
-pomodoro_react
+pomodoro_react,
+texttoascii_react_python
 } from "./Images";
 import Project from "./Project";
 import Aos from "aos";
@@ -23,6 +24,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={texttoascii_react_python}
+          style={style}
+          title={"Text To Ascii"}
+          description={
+            "Projeto de uma página geradora de arte ASCII, utilizando React para a construção do site e Python para a API responsável pela geração e disponibilização das artes em ASCII."
+          }
+          tecnology={["React","HTML", "CSS", "JavaScript", "Python"]}
+          date="21/08/2023"
+          url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Text%20To%20Ascii%20-%20React%5CPython"
+        />
       <Project
           image={pomodoro_react}
           style={style}
