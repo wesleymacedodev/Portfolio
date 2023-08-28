@@ -10,7 +10,8 @@ tela_de_cadastro_login_javascript,
 color_picker_extensao_javascript,
 to_dolist_react,
 pomodoro_react,
-texttoascii_react_python
+texttoascii_react_python,
+proxy_tools_python
 } from "./Images";
 import Project from "./Project";
 import Aos from "aos";
@@ -24,6 +25,17 @@ export default function Projects() {
     <div className={style.projects} data-aos="zoom-in-right">
       <h1 className={style.title}>Projetos</h1>
       <div className={style.projects_section}>
+      <Project
+          image={proxy_tools_python}
+          style={style}
+          title={"Proxy Tools"}
+          description={
+            "Projeto de uma aplicação verificadora e scraper de proxys (http, socks4, socks5), utilizando interface gráfica (tkinter), requisições (requests) e paralelismo (threading)."
+          }
+          tecnology={["Python"]}
+          date="28/08/2023"
+          url="https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Proxy%20Tools%20-%20Python%20(Tkinter)"
+        />
       <Project
           image={texttoascii_react_python}
           style={style}

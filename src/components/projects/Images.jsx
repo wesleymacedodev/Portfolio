@@ -9,3 +9,4 @@ export const color_picker_extensao_javascript = require("./Images/color_picker_e
 export const to_dolist_react = require("./Images/to_dolist_react.png");
 export const pomodoro_react = require("./Images/pomodoro_react.png");
 export const texttoascii_react_python = require("./Images/texttoascii_react_python.png");
+export const proxy_tools_python = require("./Images/proxy_tools_python.png");
