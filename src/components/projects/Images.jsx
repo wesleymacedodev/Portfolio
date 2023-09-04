@@ -10,3 +10,4 @@ export const to_dolist_react = require("./Images/to_dolist_react.png");
 export const pomodoro_react = require("./Images/pomodoro_react.png");
 export const texttoascii_react_python = require("./Images/texttoascii_react_python.png");
 export const proxy_tools_python = require("./Images/proxy_tools_python.png");
+export const jogodaforca_react =require("./Images/jogodaforca_react.png")

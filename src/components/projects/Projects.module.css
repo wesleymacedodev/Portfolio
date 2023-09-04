@@ -11,9 +11,44 @@
     color: var(--FontColor);
 }
 
+.filterBar {
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--skillPrimary);
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.filter {
+    background-color: var(--skillSecondary);
+    padding: 5px;
+    border: none;
+    color: var(--FontColor);
+    cursor: pointer;
+}
+
+.python:hover {
+    transition: color 1s;
+    color: var(--python);
+}
+
+.javascript:hover {
+    transition: color 1s;
+    color: var(--javascript);
+}
+
+.react:hover {
+    transition: color 1s;
+    color: var(--react);
+}
+
+.reset:hover {
+    color: var(--skillFontColor);
+}
+
 .projects_section {
     display: grid;
-    margin-top: 30px;
     gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
 }
