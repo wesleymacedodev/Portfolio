@@ -10,11 +10,21 @@ import {
     pomodoro_react,
     texttoascii_react_python,
     proxy_tools_python,
-    jogodaforca_react
+    jogodaforca_react,
+    link_shortener_python
 } from "./Images";
 import style from "./Projects.module.css";
 
 export const Data = [
+    {
+        "image":link_shortener_python,
+        "style": style, 
+        "title": "Link Shortener",
+        "description": "Projeto de um encurtador de links utilizando flask, contendo o armazenamento dos dados através de um arquivo json.",
+        "tecnology": ["Python", "HTML", "CSS"],
+        "date": "12/09/2023",
+        "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Link%20Shortener%20-%20Python%20(Flask)"
+    },
     {
         "image":jogodaforca_react,
         "style":style,
