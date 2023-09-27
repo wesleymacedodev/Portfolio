@@ -12,3 +12,4 @@ export const texttoascii_react_python = require("./Images/texttoascii_react_pyth
 export const proxy_tools_python = require("./Images/proxy_tools_python.png");
 export const jogodaforca_react =require("./Images/jogodaforca_react.png");
 export const link_shortener_python = require("./Images/link_shortener_python.png");
+export const bind_tool_python = require("./Images/bind_tool_python.png");

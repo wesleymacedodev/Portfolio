@@ -11,11 +11,21 @@ import {
     texttoascii_react_python,
     proxy_tools_python,
     jogodaforca_react,
-    link_shortener_python
+    link_shortener_python,
+    bind_tool_python
 } from "./Images";
 import style from "./Projects.module.css";
 
 export const Data = [
+    {
+        "image": bind_tool_python,
+        "style": style,
+        "title": "Bind Tool",
+        "description": "Projeto de uma ferramenta para a criação de binds de texto, utilizando tkinter para a interface gráfica.",
+        "tecnology": ["Python"],
+        "date": "27/09/2023",
+        "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Bind%20Tool%20-%20Python%20(Tkinter)"
+    },
     {
         "image":link_shortener_python,
         "style": style, 
