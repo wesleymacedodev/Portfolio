@@ -12,11 +12,21 @@ import {
     proxy_tools_python,
     jogodaforca_react,
     link_shortener_python,
-    bind_tool_python
+    bind_tool_python,
+    file_ziprar_python_tkinter
 } from "./Images";
 import style from "./Projects.module.css";
 
 export const Data = [
+    {
+        "image": file_ziprar_python_tkinter,
+        "style": style,
+        "title": "File ZipRar",
+        "description": "Projeto utilizando a interface gráfica do tkinter com design feito no Figma de uma aplicação para descompactar e compactar arquivos RAR e ZIP.",
+        "tecnology": ["Python"],
+        "date": "01/10/2023",
+        "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/File%20ZipRar%20-%20Python%20(Tkinter%20Design)"
+    },
     {
         "image": bind_tool_python,
         "style": style,
