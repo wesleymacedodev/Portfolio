@@ -13,11 +13,82 @@ import {
     jogodaforca_react,
     link_shortener_python,
     bind_tool_python,
-    file_ziprar_python_tkinter
+    file_ziprar_python_tkinter,
+    file_uploader_website,
+    kanban_website,
+    qrcode_api_website,
+    rar_breaker,
+    youtube_downloader_extensao,
+    video_clip_python,
+    image_remover_python
+
 } from "./Images";
 import style from "./Projects.module.css";
 
 export const Data = [
+  {
+    "image": video_clip_python,
+    "style": style,
+    "title": "Video Clips",
+    "description": "Projeto feito para facilitar o recorte de partes de vídeos de forma rápida e prática, além de reduzir a qualidade através da proporção.",
+    "tecnology": ["Python"],
+    "date": "02/05/2024",
+    "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Video%20Clips%20-%20Python%20(FFMPEG)"
+    },
+  {
+    "image": image_remover_python,
+    "style": style,
+    "title": "Image Remover",
+    "description": "Projeto para ajudar na limpeza de imagens de um diretório, permitindo navegar entre as imagens e selecionar se deseja ou não deletar a imagem alvo, feito puramente com Python e interface gráfica Tkinter.",
+    "tecnology": ["Python"],
+    "date": "29/04/2024",
+    "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Image%20Remover%20-%20Python%20(Tkinter)"
+    },
+  {
+    "image": youtube_downloader_extensao,
+    "style": style,
+    "title": "Youtube Download Extensão",
+    "description": "Projeto para a criação de uma extensão com intuito de facilitar o download de vídeos e músicas da plataforma YouTube, utilizando sites externos para o download.",
+    "tecnology": ["JavaScript", "HTML", "CSS"],
+    "date": "25/04/2024",
+    "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Youtube%20Download%20-%20Java-script%20(Extensão)"
+    },
+  {
+    "image": rar_breaker,
+    "style": style,
+    "title": "Rar Breaker",
+    "description": "Projeto CLI com python, sem a utilização de bibliotecas externas, com objetivo de quebrar senhas de arquivos rar através do método brute-force.",
+    "tecnology": ["Python"],
+    "date": "17/04/2024",
+    "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/RAR%20Breaker%20-%20Python"
+    },
+  {
+    "image": qrcode_api_website,
+    "style": style,
+    "title": "QrCode API Website",
+    "description": "Projeto com a utilização de uma página estática com java-script puro, para a geração e leitura de qrcodes, utilizando uma api interna com python flask e pyqrcode/pyzbar para a criação e leitura.",
+    "tecnology": ["Python", "HTML", "CSS", "JavaScript"],
+    "date": "16/04/2024",
+    "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Qr%20Code%20API%20-%20Python%20(Flask)"
+    },
+  {
+    "image": kanban_website,
+    "style": style,
+    "title": "KanBan Website",
+    "description": "Projeto simples com java-script puro, com a finalidade de aprendizagem e aperfeiçoamento com a utilização dos eventos handle (drag and drop) para manipular objetos na página.",
+    "tecnology": ["HTML", "CSS", "JavaScript"],
+    "date": "10/04/2024",
+    "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/Kanban%20Website"
+    },
+    {
+      "image": file_uploader_website,
+      "style": style,
+      "title": "File Uploader Website",
+      "description": "Projeto simples, inteiramente feito com python flask com intuito de transferir arquivos localmente com facilidade.",
+      "tecnology": ["Python","HTML", "CSS", "JavaScript"],
+      "date": "04/04/2024",
+      "url": "https://github.com/wesleymacedodev/Projetos/tree/main/Projetos%20Maiores/File%20Uploader%20Website%20-%20Flask"
+    },
     {
         "image": file_ziprar_python_tkinter,
         "style": style,
